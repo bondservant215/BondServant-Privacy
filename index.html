@@ -5,30 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BondServant Privacy Policy</title>
   <meta name="description" content="BondServant stores all data locally on your device. We do not collect, share, or sell personal data." />
-  <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="BondServant Privacy Policy" />
-  <meta property="og:description" content="All data stays on your device. No accounts. No tracking. No data collection." />
   <style>
-    :root { --fg:#111; --muted:#555; --bg:#fff; --accent:#000; }
-    * { box-sizing: border-box; }
     body {
-      margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--fg); background: var(--bg);
+      margin: 0;
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #111;
+      background: #fff;
     }
     .container { max-width: 760px; margin: 0 auto; padding: 28px 16px 48px; }
     h1 { font-size: 28px; margin: 0 0 8px; }
     h2 { font-size: 20px; margin: 28px 0 8px; }
-    p, li { color: var(--fg); }
-    small, .muted { color: var(--muted); }
-    a { color: var(--accent); text-decoration: underline; }
+    p, li { color: #111; }
+    .muted { color: #555; }
+    a { color: #000; text-decoration: underline; }
     hr { border: none; height: 1px; background: #e6e6e6; margin: 24px 0; }
-    .footer { margin-top: 32px; font-size: 14px; color: var(--muted); }
+    .footer { margin-top: 32px; font-size: 14px; color: #555; }
   </style>
 </head>
 <body>
   <main class="container">
     <h1>BondServant Privacy Policy</h1>
-    <p class="muted"><strong>Last updated:</strong> <span id="last-updated">August 30, 2025</span></p>
+    <p class="muted"><strong>Last updated:</strong> August 30, 2025</p>
 
     <p><strong>BondServant</strong> is designed for privacy. The app works entirely offline and stores your data locally on your device. We do not collect, track, share, or sell personal information.</p>
 
@@ -58,8 +55,14 @@
     <h2>Third-Party Services</h2>
     <p>BondServant does not use any third-party SDKs for analytics, advertising, or crash reporting.</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this policy or the app’s privacy practices, contact us at:
+    <h2>Support</h2>
+    <p>If you need help using BondServant, here are some quick tips:</p>
+    <ul>
+      <li><strong>Notifications aren’t firing:</strong> In Settings → Notifications, tap <em>Repair Notifications</em> to reschedule reminders.</li>
+      <li><strong>Change the home verse:</strong> Go to Settings → Scripture (Home) → set Verse Source to <em>Custom</em>, then enter your text and reference.</li>
+      <li><strong>Privacy:</strong> All data stays on your device. This page serves as your full privacy policy.</li>
+    </ul>
+    <p>If you still need assistance, please contact us at:
       <br/>
       <a href="mailto:bondservant215@gmail.com">bondservant215@gmail.com</a>
     </p>
@@ -68,11 +71,7 @@
     <p>If we make material changes to this policy, we will update the date above and, if appropriate, note changes within the app.</p>
 
     <hr />
-    <p class="footer">© <span id="year"></span> BondServant. All rights reserved.</p>
+    <p class="footer">© <script>document.write(new Date().getFullYear())</script> BondServant. All rights reserved.</p>
   </main>
-  <script>
-    // Auto-fill current year (and easily tweak last-updated if you edit this file)
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
