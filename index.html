@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BondServant Privacy Policy</title>
+  <meta name="description" content="BondServant stores all data locally on your device. We do not collect, share, or sell personal data." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="BondServant Privacy Policy" />
+  <meta property="og:description" content="All data stays on your device. No accounts. No tracking. No data collection." />
+  <style>
+    :root { --fg:#111; --muted:#555; --bg:#fff; --accent:#000; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--fg); background: var(--bg);
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 28px 16px 48px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 28px 0 8px; }
+    p, li { color: var(--fg); }
+    small, .muted { color: var(--muted); }
+    a { color: var(--accent); text-decoration: underline; }
+    hr { border: none; height: 1px; background: #e6e6e6; margin: 24px 0; }
+    .footer { margin-top: 32px; font-size: 14px; color: var(--muted); }
+  </style>
 </head>
 <body>
-  <h1>BondServant Privacy Policy</h1>
-  <p>BondServant stores all data locally on your device. We do not collect, share, or transmit any personal information. Your journal entries, reflections, and challenge history remain entirely on your phone.</p>
-  <p>Notifications are used only to remind you of daily challenges and reflections. No data is sent to external servers.</p>
-  <p>If you have questions, you can contact us at bondservant215@gmail.com.</p>
+  <main class="container">
+    <h1>BondServant Privacy Policy</h1>
+    <p class="muted"><strong>Last updated:</strong> <span id="last-updated">August 30, 2025</span></p>
+
+    <p><strong>BondServant</strong> is designed for privacy. The app works entirely offline and stores your data locally on your device. We do not collect, track, share, or sell personal information.</p>
+
+    <h2>Data We Do Not Collect</h2>
+    <ul>
+      <li>No names, emails, or account data</li>
+      <li>No analytics, tracking, or advertising identifiers</li>
+      <li>No location, contacts, photos, microphone, or camera data</li>
+    </ul>
+
+    <h2>Data Stored On Your Device</h2>
+    <p>The following content—if you create it—is stored only on your device and is not transmitted to us:</p>
+    <ul>
+      <li>Serve challenge history</li>
+      <li>Assess (reflection) entries</li>
+      <li>Journal entries</li>
+      <li>Your custom home-screen verse and settings</li>
+    </ul>
+    <p>You may delete this data at any time from within the app (e.g., by clearing history or using the “Reset All Content” setting).</p>
+
+    <h2>Notifications</h2>
+    <p>BondServant can schedule local notifications to remind you about daily challenges and reflections. These notifications are generated and managed on your device. No notification content is sent to external servers.</p>
+
+    <h2>Children’s Privacy</h2>
+    <p>BondServant is suitable for general audiences and does not knowingly collect personal information from anyone, including children.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>BondServant does not use any third-party SDKs for analytics, advertising, or crash reporting.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this policy or the app’s privacy practices, contact us at:
+      <br/>
+      <a href="mailto:bondservant215@gmail.com">bondservant215@gmail.com</a>
+    </p>
+
+    <h2>Policy Changes</h2>
+    <p>If we make material changes to this policy, we will update the date above and, if appropriate, note changes within the app.</p>
+
+    <hr />
+    <p class="footer">© <span id="year"></span> BondServant. All rights reserved.</p>
+  </main>
+  <script>
+    // Auto-fill current year (and easily tweak last-updated if you edit this file)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
